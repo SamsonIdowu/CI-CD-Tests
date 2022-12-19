@@ -1,13 +1,12 @@
 # This program prints Hello, world!
 
-a = 10
-b = 90
-c = 10+90
+print('for next build, edit value of a and b in code to increment number...')
 
+a = 2
+b = 3
+c = a*b
 print(c)
 
 print('This Pipeline Test was Successful!!!')
-
-print("I hope to learn fast...")
 
 exit
