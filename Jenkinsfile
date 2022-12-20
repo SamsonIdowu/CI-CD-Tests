@@ -17,7 +17,10 @@ pipeline {
     }
     stage('Deploy') {
       steps {
+        
+        sh '''
         python3 print_test.py
+        '''
         echo 'Program Deployment Complete!!!'
       }
     }
