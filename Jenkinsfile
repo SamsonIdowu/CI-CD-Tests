@@ -19,10 +19,10 @@ pipeline {
         echo "Program Tested!!!"
       }
     }
-    stage('Deliver') {
+    stage('Deploy') {
       steps {
         python3 */print_test.py
-        echo "Program Execution Completed!!!"
+        echo "Program Deployment Complete!!!"
       }
     }
   }
