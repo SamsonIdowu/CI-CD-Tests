@@ -1,9 +1,6 @@
 pipeline {
   agent any
-  parameters {
-    base64File 'small'
-    stashedFile 'large'
-  }
+  
   stages {
     stage('Build') {
       steps {
