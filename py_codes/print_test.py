@@ -3,7 +3,7 @@
 print('for next build, edit value of a and b in code to increment number...')
 
 a = 2
-b = 14
+b = 15
 c = a*b
 print(c)
 
