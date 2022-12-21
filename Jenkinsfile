@@ -19,9 +19,9 @@ pipeline {
       steps {
         
         sh '''
-        cd py_codes
-        python3 print_test.py
+        python3 */print_test.py
         '''
+        
         echo 'Program Deployment Complete!!!'
       }
     }
